@@ -1,0 +1,25 @@
+{
+    "name": "remithefox/php-gpio",
+    "type": "library",
+    "description": "PHP library to operate with Raspberry Pi's GPIO.",
+    "authors": [
+        {
+            "name": "Remi the fox",
+            "email": "remithefox93@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RemiTheFox\\PhpGPIO\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^5.0",
+        "mikey179/vfsstream": "^1.6",
+        "bossa/phpspec2-expect": "^3.1"
+    }
+}
